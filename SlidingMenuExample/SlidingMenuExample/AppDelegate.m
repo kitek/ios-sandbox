@@ -8,11 +8,47 @@
 
 #import "AppDelegate.h"
 
+
+@interface AppDelegate() <PKRevealing>
+
+#pragma mark - Properties
+@property (nonatomic, strong, readwrite) PKRevealController *revealController;
+
+
+@end
+
 @implementation AppDelegate
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    // Step 1: Create your controllers.
+    UIViewController *frontViewController = [[UIViewController alloc] init];
+    frontViewController.view.backgroundColor = [UIColor orangeColor];
+    
+    UINavigationController *frontNavigationController = [[UINavigationController alloc] initWithRootViewController:frontViewController];
+    UIViewController *rightViewController = [[UIViewController alloc] init];
+    rightViewController.view.backgroundColor = [UIColor redColor];
+    
+    UIViewController *leftViewController = [[UIViewController alloc] init];
+    leftViewController.view.backgroundColor = [UIColor brownColor];
+    
+    // Step 2: Instantiate.
+    self.revealController = [PKRevealController revealControllerWithFrontViewController:frontNavigationController
+                                                                     leftViewController:leftViewController
+                                                                    rightViewController:rightViewController];
+    
+    // Step 3: Configure.
+    self.revealController.delegate = self;
+    self.revealController.animationDuration = 0.25;
+    
+    // Step 4: Apply.
+    self.window.rootViewController = self.revealController;
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 							
