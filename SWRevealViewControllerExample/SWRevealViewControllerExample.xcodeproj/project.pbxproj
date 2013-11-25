@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCF094FD2CC44458B9F2B754 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67BEC59236B84DACB8CABAAF /* libPods.a */; };
+		E50B295518422FEC00C53B8D /* SidebarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E50B295418422FEC00C53B8D /* SidebarViewController.m */; };
+		E50B295B1842331700C53B8D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E50B295A1842331700C53B8D /* MainViewController.m */; };
+		E550A3E018422E71006545BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E550A3DF18422E71006545BA /* Foundation.framework */; };
+		E550A3E218422E71006545BA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E550A3E118422E71006545BA /* CoreGraphics.framework */; };
+		E550A3E418422E71006545BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E550A3E318422E71006545BA /* UIKit.framework */; };
+		E550A3EA18422E71006545BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E550A3E818422E71006545BA /* InfoPlist.strings */; };
+		E550A3EC18422E71006545BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E550A3EB18422E71006545BA /* main.m */; };
+		E550A3F018422E71006545BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E550A3EF18422E71006545BA /* AppDelegate.m */; };
+		E550A3F318422E71006545BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E550A3F118422E71006545BA /* Main.storyboard */; };
+		E550A3F618422E71006545BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E550A3F518422E71006545BA /* ViewController.m */; };
+		E550A3F818422E71006545BA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E550A3F718422E71006545BA /* Images.xcassets */; };
+		E550A3FF18422E72006545BA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E550A3FE18422E72006545BA /* XCTest.framework */; };
+		E550A40018422E72006545BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E550A3DF18422E71006545BA /* Foundation.framework */; };
+		E550A40118422E72006545BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E550A3E318422E71006545BA /* UIKit.framework */; };
+		E550A40918422E72006545BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E550A40718422E72006545BA /* InfoPlist.strings */; };
+		E550A40B18422E72006545BA /* SWRevealViewControllerExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E550A40A18422E72006545BA /* SWRevealViewControllerExampleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E550A40218422E72006545BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E550A3D418422E71006545BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E550A3DB18422E71006545BA;
+			remoteInfo = SWRevealViewControllerExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		67BEC59236B84DACB8CABAAF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E50B295318422FEC00C53B8D /* SidebarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarViewController.h; sourceTree = "<group>"; };
+		E50B295418422FEC00C53B8D /* SidebarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarViewController.m; sourceTree = "<group>"; };
+		E50B29591842331700C53B8D /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ../MainViewController.h; sourceTree = "<group>"; };
+		E50B295A1842331700C53B8D /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ../MainViewController.m; sourceTree = "<group>"; };
+		E550A3DC18422E71006545BA /* SWRevealViewControllerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWRevealViewControllerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E550A3DF18422E71006545BA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E550A3E118422E71006545BA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E550A3E318422E71006545BA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E550A3E718422E71006545BA /* SWRevealViewControllerExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SWRevealViewControllerExample-Info.plist"; sourceTree = "<group>"; };
+		E550A3E918422E71006545BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E550A3EB18422E71006545BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E550A3ED18422E71006545BA /* SWRevealViewControllerExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SWRevealViewControllerExample-Prefix.pch"; sourceTree = "<group>"; };
+		E550A3EE18422E71006545BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E550A3EF18422E71006545BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E550A3F218422E71006545BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E550A3F418422E71006545BA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E550A3F518422E71006545BA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E550A3F718422E71006545BA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E550A3FD18422E72006545BA /* SWRevealViewControllerExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SWRevealViewControllerExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E550A3FE18422E72006545BA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E550A40618422E72006545BA /* SWRevealViewControllerExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SWRevealViewControllerExampleTests-Info.plist"; sourceTree = "<group>"; };
+		E550A40818422E72006545BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E550A40A18422E72006545BA /* SWRevealViewControllerExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewControllerExampleTests.m; sourceTree = "<group>"; };
+		F90D32F5770143059AF65098 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E550A3D918422E71006545BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E550A3E218422E71006545BA /* CoreGraphics.framework in Frameworks */,
+				E550A3E418422E71006545BA /* UIKit.framework in Frameworks */,
+				E550A3E018422E71006545BA /* Foundation.framework in Frameworks */,
+				BCF094FD2CC44458B9F2B754 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E550A3FA18422E72006545BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E550A3FF18422E72006545BA /* XCTest.framework in Frameworks */,
+				E550A40118422E72006545BA /* UIKit.framework in Frameworks */,
+				E550A40018422E72006545BA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E550A3D318422E71006545BA = {
+			isa = PBXGroup;
+			children = (
+				E550A3E518422E71006545BA /* SWRevealViewControllerExample */,
+				E550A40418422E72006545BA /* SWRevealViewControllerExampleTests */,
+				E550A3DE18422E71006545BA /* Frameworks */,
+				E550A3DD18422E71006545BA /* Products */,
+				F90D32F5770143059AF65098 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		E550A3DD18422E71006545BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E550A3DC18422E71006545BA /* SWRevealViewControllerExample.app */,
+				E550A3FD18422E72006545BA /* SWRevealViewControllerExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E550A3DE18422E71006545BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E550A3DF18422E71006545BA /* Foundation.framework */,
+				E550A3E118422E71006545BA /* CoreGraphics.framework */,
+				E550A3E318422E71006545BA /* UIKit.framework */,
+				E550A3FE18422E72006545BA /* XCTest.framework */,
+				67BEC59236B84DACB8CABAAF /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E550A3E518422E71006545BA /* SWRevealViewControllerExample */ = {
+			isa = PBXGroup;
+			children = (
+				E50B29591842331700C53B8D /* MainViewController.h */,
+				E50B295A1842331700C53B8D /* MainViewController.m */,
+				E550A3EE18422E71006545BA /* AppDelegate.h */,
+				E550A3EF18422E71006545BA /* AppDelegate.m */,
+				E550A3F118422E71006545BA /* Main.storyboard */,
+				E550A3F418422E71006545BA /* ViewController.h */,
+				E550A3F518422E71006545BA /* ViewController.m */,
+				E550A3F718422E71006545BA /* Images.xcassets */,
+				E550A3E618422E71006545BA /* Supporting Files */,
+				E50B295318422FEC00C53B8D /* SidebarViewController.h */,
+				E50B295418422FEC00C53B8D /* SidebarViewController.m */,
+			);
+			path = SWRevealViewControllerExample;
+			sourceTree = "<group>";
+		};
+		E550A3E618422E71006545BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E550A3E718422E71006545BA /* SWRevealViewControllerExample-Info.plist */,
+				E550A3E818422E71006545BA /* InfoPlist.strings */,
+				E550A3EB18422E71006545BA /* main.m */,
+				E550A3ED18422E71006545BA /* SWRevealViewControllerExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E550A40418422E72006545BA /* SWRevealViewControllerExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				E550A40A18422E72006545BA /* SWRevealViewControllerExampleTests.m */,
+				E550A40518422E72006545BA /* Supporting Files */,
+			);
+			path = SWRevealViewControllerExampleTests;
+			sourceTree = "<group>";
+		};
+		E550A40518422E72006545BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E550A40618422E72006545BA /* SWRevealViewControllerExampleTests-Info.plist */,
+				E550A40718422E72006545BA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E550A3DB18422E71006545BA /* SWRevealViewControllerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E550A40E18422E72006545BA /* Build configuration list for PBXNativeTarget "SWRevealViewControllerExample" */;
+			buildPhases = (
+				94366107144E41B69EB8C58C /* Check Pods Manifest.lock */,
+				E550A3D818422E71006545BA /* Sources */,
+				E550A3D918422E71006545BA /* Frameworks */,
+				E550A3DA18422E71006545BA /* Resources */,
+				43B18E35C3164E2BAD042A3F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SWRevealViewControllerExample;
+			productName = SWRevealViewControllerExample;
+			productReference = E550A3DC18422E71006545BA /* SWRevealViewControllerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E550A3FC18422E72006545BA /* SWRevealViewControllerExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E550A41118422E72006545BA /* Build configuration list for PBXNativeTarget "SWRevealViewControllerExampleTests" */;
+			buildPhases = (
+				E550A3F918422E72006545BA /* Sources */,
+				E550A3FA18422E72006545BA /* Frameworks */,
+				E550A3FB18422E72006545BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E550A40318422E72006545BA /* PBXTargetDependency */,
+			);
+			name = SWRevealViewControllerExampleTests;
+			productName = SWRevealViewControllerExampleTests;
+			productReference = E550A3FD18422E72006545BA /* SWRevealViewControllerExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E550A3D418422E71006545BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Kitek.pl;
+				TargetAttributes = {
+					E550A3FC18422E72006545BA = {
+						TestTargetID = E550A3DB18422E71006545BA;
+					};
+				};
+			};
+			buildConfigurationList = E550A3D718422E71006545BA /* Build configuration list for PBXProject "SWRevealViewControllerExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E550A3D318422E71006545BA;
+			productRefGroup = E550A3DD18422E71006545BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E550A3DB18422E71006545BA /* SWRevealViewControllerExample */,
+				E550A3FC18422E72006545BA /* SWRevealViewControllerExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E550A3DA18422E71006545BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E550A3F818422E71006545BA /* Images.xcassets in Resources */,
+				E550A3EA18422E71006545BA /* InfoPlist.strings in Resources */,
+				E550A3F318422E71006545BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E550A3FB18422E72006545BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E550A40918422E72006545BA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		43B18E35C3164E2BAD042A3F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94366107144E41B69EB8C58C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E550A3D818422E71006545BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E550A3F618422E71006545BA /* ViewController.m in Sources */,
+				E550A3F018422E71006545BA /* AppDelegate.m in Sources */,
+				E550A3EC18422E71006545BA /* main.m in Sources */,
+				E50B295B1842331700C53B8D /* MainViewController.m in Sources */,
+				E50B295518422FEC00C53B8D /* SidebarViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E550A3F918422E72006545BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E550A40B18422E72006545BA /* SWRevealViewControllerExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E550A40318422E72006545BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E550A3DB18422E71006545BA /* SWRevealViewControllerExample */;
+			targetProxy = E550A40218422E72006545BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E550A3E818422E71006545BA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E550A3E918422E71006545BA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E550A3F118422E71006545BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E550A3F218422E71006545BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E550A40718422E72006545BA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E550A40818422E72006545BA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E550A40C18422E72006545BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E550A40D18422E72006545BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E550A40F18422E72006545BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F90D32F5770143059AF65098 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SWRevealViewControllerExample/SWRevealViewControllerExample-Prefix.pch";
+				INFOPLIST_FILE = "SWRevealViewControllerExample/SWRevealViewControllerExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E550A41018422E72006545BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F90D32F5770143059AF65098 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SWRevealViewControllerExample/SWRevealViewControllerExample-Prefix.pch";
+				INFOPLIST_FILE = "SWRevealViewControllerExample/SWRevealViewControllerExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E550A41218422E72006545BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SWRevealViewControllerExample.app/SWRevealViewControllerExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SWRevealViewControllerExample/SWRevealViewControllerExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SWRevealViewControllerExampleTests/SWRevealViewControllerExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E550A41318422E72006545BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SWRevealViewControllerExample.app/SWRevealViewControllerExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SWRevealViewControllerExample/SWRevealViewControllerExample-Prefix.pch";
+				INFOPLIST_FILE = "SWRevealViewControllerExampleTests/SWRevealViewControllerExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E550A3D718422E71006545BA /* Build configuration list for PBXProject "SWRevealViewControllerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E550A40C18422E72006545BA /* Debug */,
+				E550A40D18422E72006545BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E550A40E18422E72006545BA /* Build configuration list for PBXNativeTarget "SWRevealViewControllerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E550A40F18422E72006545BA /* Debug */,
+				E550A41018422E72006545BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E550A41118422E72006545BA /* Build configuration list for PBXNativeTarget "SWRevealViewControllerExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E550A41218422E72006545BA /* Debug */,
+				E550A41318422E72006545BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E550A3D418422E71006545BA /* Project object */;
+}
